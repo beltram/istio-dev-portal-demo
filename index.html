@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Istio Dev Portal demo</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sopra-banking.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="header">
+        <span class="logo">Sopra Banking Software</span>
+        <span class="title">Istio Developer Portal</span>
+        <span class="author">Beltram Maldant</span>
+    </div>
+    <div class="slides">
+        <section data-markdown># Istio Developer Portal</section>
+        <section>
+            <section data-markdown># intro</section>
+            <section data-markdown="slides/intro/plan.md"></section>
+            <section data-markdown="slides/intro/thanks.md"></section>
+            <section data-markdown="slides/intro/takeaways.md"></section>
+            <section data-markdown="slides/intro/what-is-it.md"></section>
+            <section data-markdown="slides/intro/solo.md"></section>
+            <section data-markdown="slides/intro/solo-people.md"></section>
+            <section data-markdown="slides/intro/so-far.md"></section>
+            <section data-markdown="slides/intro/pricing.md"></section>
+        </section>
+        <section>
+            <section data-markdown># model</section>
+            <section data-markdown="slides/model/api-operation.md"></section>
+            <section data-markdown="slides/model/api-doc.md"></section>
+            <section data-markdown="slides/model/api-doc-img.md"></section>
+            <section data-markdown="slides/model/api-product.md"></section>
+            <section data-markdown="slides/model/api-product-img.md"></section>
+            <section data-markdown="slides/model/portal.md"></section>
+            <section data-markdown="slides/model/portal-img-admin.md"></section>
+            <section data-markdown="slides/model/portal-img-front.md"></section>
+            <section data-markdown="slides/model/portal-img.md"></section>
+        </section>
+        <section>
+            <section data-markdown># demo</section>
+        </section>
+        <section>
+            <section data-markdown># technical</section>
+            <section data-markdown="slides/archi/overview.md"></section>
+            <section data-markdown="slides/archi/pods.md"></section>
+            <section data-markdown="slides/archi/auth.md"></section>
+            <section data-markdown="slides/archi/usage-plan.md"></section>
+            <section data-markdown="slides/archi/static-pages.md"></section>
+            <section data-markdown="slides/archi/data-plane.md"></section>
+            <section data-markdown="slides/archi/route-create-tenant.md"></section>
+            <section data-markdown="slides/archi/route-create-svc.md"></section>
+            <section data-markdown="slides/archi/route-create-weight.md"></section>
+        </section>
+        <section>
+            <section data-markdown># outro</section>
+            <section data-markdown="slides/outro/misc.md"></section>
+            <section data-markdown="slides/outro/benefits.md"></section>
+            <section data-markdown="slides/outro/future.md"></section>
+            <section data-markdown="slides/outro/bonus.md"></section>
+            <section data-markdown="slides/outro/outro.md"></section>
+            <section data-markdown="slides/intro/takeaways.md"></section>
+        </section>
+    </div>
+
+</div>
+
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/external-html.js"></script>
+<script>
+    Reveal.initialize({
+        width: 1200,
+        history: true,
+        dependencies: [
+            {src: 'plugin/twitter/embed-tweet.js'},
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+
+    Reveal.configure({
+        slideNumber: true
+    });
+
+</script>
+</body>
+</html>
