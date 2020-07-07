@@ -1,5 +1,6 @@
 ## Takeaways
 
+* Config As Code
 * Multi tenant by design
 * Fine grained & dynamic endpoints exposition
 * SBS-like offering model implemented

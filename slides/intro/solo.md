@@ -1,4 +1,4 @@
-## Solo.io
+## solo.io
 <img src="https://www.solo.io/wp-content/uploads/2019/09/logo-w.svg" style="height: 5vh"/>
 * 🇺🇸
 * since 2017
