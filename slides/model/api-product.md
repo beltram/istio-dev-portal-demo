@@ -7,4 +7,4 @@
     * `PSD2` (GET /api/accounts), (POST /api/payments)
     * `IPCE` (POST /api/payments)
 * creates Istio ingress routes for those endpoints only
-* integration offer definition
+* integration (or R&D) offer definition
