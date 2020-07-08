@@ -1,6 +1,6 @@
 ## Static pages
 
-* defined through Web UI or CRDs
+* definable through Web UI or CRs
 * displayed on public front page
 * great for guides or legacy protocols documentation (SOAP, JMS..)
 

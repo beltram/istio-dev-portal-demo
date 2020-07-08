@@ -1,6 +1,6 @@
 ## Authentication
 
-* create users by UI or CRD
+* create users by admin UI or CRs
 * aggregate users into groups
 * allow users or groups to products or portals
 

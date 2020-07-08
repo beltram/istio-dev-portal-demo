@@ -1,5 +1,6 @@
 ## Data plane
 
+* definable through Web UI or CRs
 * [Header manipulation](https://docs.solo.io/dev-portal/latest/reference/api/dev-portal.api.dev-portal.v1alpha1.route/#routespec-headermanipulation) (add, set, remove)
 * [Routes creation](https://docs.solo.io/dev-portal/latest/reference/api/dev-portal.api.dev-portal.v1alpha1.route/#routespecifier)
     * to a namespace

@@ -1,5 +1,6 @@
 ## Usage plan
 
+* definable through Web UI or CRs
 * defined at ApiProduct level
 * authorization by Api key
 
